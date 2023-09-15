@@ -10,7 +10,15 @@ Feature: Feature title
   Proin scelerisque tortor tellus, sit amet interdum risus dapibus non.
 
     Given finibus enim eu dolor tristique, ut molestie nunc porta
+      | Row 1 column 1 | Row 1 column 2 |
+      | Row 2 column 1 | Row 2 column 2 |
     When neque eros, suscipit vel justo
+      """
+      {
+        "foo": "bar",
+        "bar": "baz"
+      }
+      """
     Then libero diam ornare lacus, quis vulputate nunc risus ac urna
 
   @scenario
