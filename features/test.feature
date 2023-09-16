@@ -1,4 +1,4 @@
-@feature
+@test01 @test02 @test03 @test04
 Feature: Feature title
   Nullam quam nisl, accumsan non egestas vel, lacinia eu ligula. Sed eu metus lobortis, blandit ligula vitae, sagittis leo.
   Sed rutrum erat vel tellus vehicula, sagittis auctor sem gravida.
