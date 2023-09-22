@@ -9,19 +9,20 @@ Feature: Feature title
   Background: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a arcu nisi.
   Proin scelerisque tortor tellus, sit amet interdum risus dapibus non.
 
-    Given finibus enim eu dolor tristique, ut molestie nunc porta
+    Given I go to "https://www.google.com.br"
+    When finibus enim eu dolor tristique, ut molestie nunc porta
       | Row 1 column 1 | Row 1 column 2 | Row 1 column 3 | Row 1 column 4 |
       | Row 2 column 1 | Row 2 column 2 | Row 2 column 3 | Row 2 column 4 |
       | Row 3 column 1 | Row 3 column 2 | Row 3 column 3 | Row 3 column 4 |
       | Row 4 column 1 | Row 4 column 2 | Row 4 column 3 | Row 4 column 4 |
-    When neque eros, suscipit vel justo
+    Then neque eros, suscipit vel justo
       """
       {
         "foo": "bar",
         "bar": "baz"
       }
       """
-    Then libero diam ornare lacus, quis vulputate nunc risus ac urna
+    And libero diam ornare lacus, quis vulputate nunc risus ac urna
 
   @scenario
   Scenario: Scenario title
